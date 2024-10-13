@@ -368,7 +368,7 @@
     color: #eeba2c;
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:768px) {
     .timer-item {
         font-size: 60px;
         color: #eeba2c;
@@ -380,7 +380,7 @@
     color: #000000;
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:768px) {
     .timer-code {
         font-size: 60px;
         color: #000000;
