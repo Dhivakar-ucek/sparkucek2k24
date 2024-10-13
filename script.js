@@ -12,11 +12,11 @@ var x = setInterval(function() {
 
     document.getElementById("timer").innerHTML = `
         <div class="timer-item">${days} d<span >Days</span></div> 
-        <span style="font-size:50px; color:#000000;" >|</span>
+        <span class="timer-code" >|</span>
         <div class="timer-item">${hours} h <span>Hours</span></div> 
-        <span style="font-size:50px; color:#000000;" >|</span>
+        <span class="timer-code" >|</span>
         <div class="timer-item">${minutes} m <span>Minutes</span></div> 
-        <span style="font-size:50px; color:#000000;" >|</span>
+        <span class="timer-code" >|</span>
         <div class="timer-item">${seconds} s<span>Seconds</span></div>
     `;
 
