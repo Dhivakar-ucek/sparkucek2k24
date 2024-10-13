@@ -19,26 +19,26 @@
 
 
 
-    <nav class="navbar navbar-expand-md fixed-top mb-5" style="background-color: #000000;">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <h1 class="nav-heading" style="color: #ffffff;">Spark v5.0</h1> <!-- Set navbar brand text to white -->
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" style="color: #ffffff;"></span> <!-- Change toggler icon color -->
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" id="navItem1" style="color: #ffffff;" href="#homeSection" onclick="showSection('homeSection')">HOME</a>
-                    <a class="nav-link" style="color: #ffffff;" href="#eventSection" id="navItem2">EVENTS</a>
-                    <a class="nav-link" style="color: #ffffff;" href="#aboutSection" id="navItem3">ABOUT</a>
-                    <a class="nav-link" style="color: #ffffff;" href="#contactSection" id="navItem4">CONTACT</a>
-                    <a class="nav-link" style="color: #ffffff;" href="https://drive.google.com/file/d/1-hn4M5XHZAwA8COzKqCy6g_-SoiajiZN/view?usp=sharing" id="navItem5">BROCHURE</a>
-                    <a class="nav-button" style="color: #000000;" href="https://forms.gle/6KXBXJXYcnoEgffP9" target="_blank">REGISTER</a>
-                </div>
+   <nav class="navbar navbar-expand-md fixed-top mb-5" style="background-color: #000000;">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <h1 class="nav-heading" style="color: #ffffff;">Spark v5.0</h1> <!-- Set navbar brand text to white -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: #ffffff;"></span> <!-- Change toggler icon color -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" id="navItem1" style="color: #ffffff;" href="#homeSection" onclick="showSection('homeSection'); closeNav()">HOME</a>
+                <a class="nav-link" style="color: #ffffff;" href="#eventSection" id="navItem2" onclick="closeNav()">EVENTS</a>
+                <a class="nav-link" style="color: #ffffff;" href="#aboutSection" id="navItem3" onclick="closeNav()">ABOUT</a>
+                <a class="nav-link" style="color: #ffffff;" href="#contactSection" id="navItem4" onclick="closeNav()">CONTACT</a>
+                <a class="nav-link" style="color: #ffffff;" href="https://drive.google.com/file/d/1-hn4M5XHZAwA8COzKqCy6g_-SoiajiZN/view?usp=sharing" id="navItem5" onclick="closeNav()">BROCHURE</a>
+                <a class="nav-button" style="color: #000000;" href="https://forms.gle/6KXBXJXYcnoEgffP9" target="_blank" onclick="closeNav()">REGISTER</a>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
 
 
@@ -71,6 +71,7 @@
         <div class="home-container mt-5" id="homeSection">
             <br />
             <p class="margins"></p>
+            <div id="homeSection">
             <img src="https://i.ibb.co/ZGZjGP7/spark-logo-removebg-preview.png" class="mt-5 spark-logo" style="margin-top:500px;" alt="spark-logo" />
             <p class="home-para mt-3">A National Level Technical <br /> <img src="https://www.pngmart.com/files/11/Technology-PNG-Transparent-Image.png" class="sympo-img" /> Symposium</p>
 
@@ -96,7 +97,7 @@
 
             <h2 class="home-para2 ml-2 mr-2"> <img src="https://png.pngtree.com/png-clipart/20230116/original/pngtree-3d-rendering-announcement-icon-png-image_8918401.png" class="sympo-img2" />!!Stay Tuned, Follow our Social Media Handles!!<br /> The Waiting is End!! **Register Soon** !!</h2>
             <div id="timer"></div>
-
+            </div>
             <a href="https://forms.gle/6KXBXJXYcnoEgffP9" target="_blank"><img src="https://i.ibb.co/7p1Pbdk/register-here-sign-label-icon-business-concept-advertising-banner-template-design-flat-web-elements.png" class="register mb-0" /></a>
             <p class="home-para3 ml-3 mr-3 mt-3 mb-5"><img src="https://icon-library.com/images/important-icon-png/important-icon-png-27.jpg" class="sympo-img2" />Registration Closes on 7th November 2024</p>
             <br />
@@ -384,6 +385,13 @@
                 content.style.display = "none"
             }
         }
+
+        function closeNav() {
+      const navBar = document.getElementById('navbarNavAltMarkup');
+      if (navBar.classList.contains('show')) {
+          navBar.classList.remove('show');
+      }
+  }
     </script>
 </body>
 
