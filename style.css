@@ -20,6 +20,18 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+.spark-logo {
+    height: 180px;
+    width: 180px;
+}
+
+@media Screen and (min-width:768px) {
+    .spark-logo {
+        height: 300px;
+        width: 300px;
+    }
+}
+
 .sympo-img {
     height: 50px;
     width: 80px;
@@ -41,48 +53,120 @@
     }
 }
 
+.margins {
+    margin-top: 500px;
+}
+
+@media screen and (min-width:768px) {
+    .margins {
+        margin-top: 1100px;
+    }
+
+}
+
 .phone-logo {
     height: 35px;
     width: 30px;
+    border-radius: 50%;
 }
 
 .sympo-img2 {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
+}
+
+@media screen and (min-width:768px) {
+    .sympo-img2 {
+        height: 100px;
+        width: 100px;
+    }
 }
 
 .sympo-img3 {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+}
+
+
+@media screen and (min-width:768px) {
+    .sympo-img3 {
+        height: 70px;
+        width: 90px;
+    }
 }
 
 .sympo-img4 {
-    height: 100px;
+    height: 120px;
     width: 120px;
+    background-color: transparent;
 }
 
+@media screen and (min-width:768px) {
+    .sympo-img4 {
+        height: 250px;
+        width: 320px;
+        background-color: transparent;
+    }
+
+}
+
+.college {
+    font-size: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .college {
+        font-size: 45px;
+    }
+}
 
 
 .register {
     height: 200px;
-    width: 300px;
+    width: 350px;
     animation: popUp 3s ease forwards;
     /* Animation triggers on page load */
     animation-delay: 0.5s;
     animation-iteration-count: infinite;
+    background-color: transparent;
+}
+
+@media Screen and (min-width:768px) {
+    .register {
+        height: 350px;
+        width: 500px;
+        animation: popUp 3s ease forwards;
+        /* Animation triggers on page load */
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+        background-color: transparent;
+    }
 }
 
 .highlight {
     background-color: #eeba2c;
-    /* Highlight color */
+
     color: #000000;
-    /* Text color */
-    padding: 5px 10px;
-    /* Optional: Padding around the text */
-    border-radius: 5px;
-    /* Optional: Rounded corners */
-    font-size: 24px;
-    /* Adjust font size */
+    padding: 3px 6px;
+
+    border-radius: 7px;
+
+    font-size: 18px;
+
+}
+
+@media Screen and (min-width:768px) {
+    .highlight {
+        background-color: #eeba2c;
+        color: #000000;
+
+        padding: 5px 10px;
+
+        border-radius: 10px;
+
+        font-size: 30px;
+
+    }
 }
 
 @keyframes popUp {
@@ -98,10 +182,19 @@
 }
 
 .navbar-brand h1.nav-heading {
-    font-size: 40px;
+    font-size: 20px;
     color: #ffffff;
     font-style: italic;
     text-shadow: 0 0 5px #eeba2c, 0 0 10px #eeba2c, 0 0 15px #eeba2c, 0 0 20px #eeba2c, 0 0 25px #eeba2c, 0 0 30px #eeba2c, 0 0 35px #eeba2c;
+}
+
+@media Screen and (min-width:768px) {
+    navbar-brand h1.nav-heading {
+        font-size: 50px;
+        color: #ffffff;
+        font-style: italic;
+        text-shadow: 0 0 5px #eeba2c, 0 0 10px #eeba2c, 0 0 15px #eeba2c, 0 0 20px #eeba2c, 0 0 25px #eeba2c, 0 0 30px #eeba2c, 0 0 35px #eeba2c;
+    }
 }
 
 .nav-link,
@@ -147,8 +240,8 @@
     overflow-x: hidden;
     font-family: Arial, sans-serif;
     background: linear-gradient(-45deg, #ffffff, #ffffff, #ffffff, #ffffff);
-    background-size: 400% 400%;
-    animation: gradient 3s ease infinite;
+    background-size: cover;
+    animation: gradient 15s ease infinite;
 }
 
 .home-container {
@@ -200,16 +293,45 @@
 }
 
 .home-para {
-    font-size: 35px;
+    font-size: 25px;
     font-style: italic;
     color: #ffffff;
     text-shadow: 0 0 5px #D5006D, 0 0 10px #D5006D, 0 0 15px #D5006D, 0 0 20px #D5006D, 0 0 25px #D5006D, 0 0 30px #D5006D, 0 0 35px #D5006D;
 
 }
 
+@media screen and (min-width:992px) {
+    .home-para {
+        font-size: 40px;
+        font-style: italic;
+        color: #ffffff;
+        text-shadow: 0 0 5px #D5006D, 0 0 10px #D5006D, 0 0 15px #D5006D, 0 0 20px #D5006D, 0 0 25px #D5006D, 0 0 30px #D5006D, 0 0 35px #D5006D;
+
+    }
+}
+
 .home-para2 {
     color: #000000;
-    font-size: 23px;
+    font-size: 18px;
+}
+
+@media screen and (min-width:768px) {
+    .home-para2 {
+        color: #000000;
+        font-size: 43px;
+    }
+}
+
+.home-para3 {
+    color: #000000;
+    font-size: 15px;
+}
+
+@media screen and (min-width:768px) {
+    .home-para3 {
+        color: #000000;
+        font-size: 43px;
+    }
 }
 
 .clr {
@@ -242,8 +364,27 @@
 }
 
 .timer-item {
-    font-size: 50px;
+    font-size: 25px;
     color: #eeba2c;
+}
+
+@media screen and (min-width:992px) {
+    .timer-item {
+        font-size: 60px;
+        color: #eeba2c;
+    }
+}
+
+.timer-code {
+    font-size: 25px;
+    color: #000000;
+}
+
+@media screen and (min-width:992px) {
+    .timer-code {
+        font-size: 60px;
+        color: #000000;
+    }
 }
 
 @keyframes gradient {
@@ -282,7 +423,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    cursor: pointer;
 }
 
 /** For event-container **/
@@ -295,7 +436,7 @@
 }
 
 .technical-card {
-    background-image: url("http://wallpapercave.com/wp/Qgwlw5q.png");
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.bdlXj0GpJKLLU8E6hIPW6AHaFj&pid=Api&P=0&h=180");
     background-size: cover;
 
 }
@@ -305,14 +446,19 @@
     background-size: cover;
 }
 
+.sympo-card {
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.PFlbSpPVShFE5G_TRIki4gHaEo&pid=Api&P=0&h=180");
+    background-size: cover;
+}
 
 .college-card {
     background-image: url("https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/2431/2018/7/27/University-College-of-Engineering-Kancheepuram1.jpg");
     background-size: cover;
+
 }
 
 .department-card {
-    background-image: url("https://tse4.mm.bing.net/th?id=OIP._MQN6_bPJfgyNsgai8y_-AHaEK&pid=Api&P=0&h=180");
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220505/pngtree-internet-of-things--iot--concept-image_1143981.jpg");
     background-size: cover;
 }
 
@@ -357,17 +503,17 @@
 }
 
 .card {
-    background-color: #000000;
+    background-color: grey;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px;
-    max-width: 380px;
+    max-width: 320px;
 }
 
 @media screen and (min-width:992px) {
     .card {
-        background-color: #000000;
+        background-color: grey;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         padding: 20px;
@@ -382,7 +528,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 20px;
-    max-width: 380px;
+    max-width: 320px;
 
 }
 
@@ -592,13 +738,23 @@
         color: #000000;
         text-align: left;
         margin: 30px;
-        max-width: 900px;
+        max-width: 1000px;
+        font-size: 25px;
     }
 }
 
 .rules-para {
     color: #000000;
     text-align: center;
-    max-width: 380px;
-    margin-left: 40px;
+    max-width: 400px;
+    margin-left: 45px;
+    padding: 20px;
+}
+
+.hidden-section {
+    display: none;
+}
+
+.visible-section {
+    display: block;
 }
