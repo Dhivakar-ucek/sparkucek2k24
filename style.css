@@ -529,7 +529,7 @@
     /* Yellow shadow */
     transition: box-shadow 1s ease-in-out;
 
-    animation: fadeInOut 3s ease-in-out infinite;
+    animation: fadeInOut 10s ease-in-out infinite;
     /* Apply the fade-in and out animation */
     padding: 20px;
     margin: 20px;
@@ -647,20 +647,20 @@
 }
 
 .non-tech-animation {
-    animation: fadeInRight 5s ease-in-out infinite;
+    animation: fadeInRight 7s ease-in-out infinite;
 }
 
 .about-sympo-animation {
-    animation: fadeInLeft 7s ease-in-out infinite;
+    animation: fadeInLeft 10s ease-in-out infinite;
 }
 
 .about-college-animation {
-    animation: fadeInTop 3s ease-in-out infinite;
+    animation: fadeInTop 7s ease-in-out infinite;
     ;
 }
 
 .members-animation {
-    animation: fadeInBottom 6s ease-in-out infinite;
+    animation: fadeInBottom 8s ease-in-out infinite;
 }
 
 .card:hover {
