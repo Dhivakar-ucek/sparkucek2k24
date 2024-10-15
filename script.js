@@ -11,13 +11,13 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000)
 
     document.getElementById("timer").innerHTML = `
-        <div class="timer-item">${days} d<span >Days</span></div> 
+        <div class="timer-item">${days} <span >Days</span></div> 
         <span class="timer-code" >|</span>
-        <div class="timer-item">${hours} h <span>Hours</span></div> 
+        <div class="timer-item">${hours}  <span>Hours</span></div> 
         <span class="timer-code" >|</span>
-        <div class="timer-item">${minutes} m <span>Minutes</span></div> 
+        <div class="timer-item">${minutes} <span>Minutes</span></div> 
         <span class="timer-code" >|</span>
-        <div class="timer-item">${seconds} s<span>Seconds</span></div>
+        <div class="timer-item">${seconds} <span>Seconds</span></div>
     `;
 
     if (distance < 0) {
