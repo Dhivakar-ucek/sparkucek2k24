@@ -11,13 +11,14 @@
     box-sizing: border-box;
 }
 
+
 .navbar-toggler {
-    border-color: rgba(255, 255, 255, 0.5);
+    border-color: black;
     /* Optional: Change the border around the icon to white */
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .spark-logo {
@@ -185,7 +186,7 @@
     font-size: 20px;
     color: #ffffff;
     font-style: italic;
-    text-shadow: 0 0 5px #eeba2c, 0 0 10px #eeba2c, 0 0 15px #eeba2c, 0 0 20px #eeba2c, 0 0 25px #eeba2c, 0 0 30px #eeba2c, 0 0 35px #eeba2c;
+    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 25px red, 0 0 30px red, 0 0 35px red;
 }
 
 @media Screen and (min-width:768px) {
@@ -211,7 +212,7 @@
 .nav-button {
     height: 40px;
     width: 100px;
-    background-color: azure;
+    background-color: #eeba2c;
     color: #000000;
     font-weight: bold;
     border: none;
@@ -239,9 +240,29 @@
     min-height: 100vh;
     overflow-x: hidden;
     font-family: Arial, sans-serif;
-    background: linear-gradient(-45deg, #ffffff, #ffffff, #ffffff, #ffffff);
-    background-size: cover;
-    animation: gradient 15s ease infinite;
+    /* selected background-image:url("https://i.ibb.co/VtC6kKM/luxa-org-opacity-changed-696090.webp"); */
+    /* particle background-image:url("https://wallpaperset.com/w/full/5/4/f/225692.jpg"); */
+    /* selected today background-image: url("https://static.vecteezy.com/system/resources/previews/012/896/218/non_2x/star-sparkle-colourful-element-free-png.png"); */
+    /*  background-image: url("https://i.ibb.co/cNv2MCv/luxa-org-opacity-changed-il-570x-N-4165856268-q0s6.webp"); */
+    /* background-image:url("https://www.creativefabrica.com/wp-content/uploads/2021/08/10/Teal-Splash-Glitter-Sparkle-Background-Graphics-15717236-1.jpg"); */
+    background-image: url("https://purepng.com/public/uploads/large/fire-sparkle-qmo.png");
+    /* background-image:url("https://pics.craiyon.com/2023-11-12/J4oI9gs8SfGUandlU8rcGQ.webp"); 
+    /* background-size: 400% 400%; */
+    /* background-image: url("https://i.ibb.co/9wxcWFc/luxa-org-opacity-changed-coding-background-0vw3zenwz75j4jkb.jpg"); */
+    /* background-image: url("https://i.ibb.co/m8vY3YJ/luxa-org-opacity-changed-background.png");
+    /* background-image:url("https://static.vecteezy.com/system/resources/previews/015/098/835/large_2x/golden-gaultier-spark-transparent-background-free-png.png"); */
+    /* background-image:url("https://thumbs.dreamstime.com/b/website-html-code-browser-view-white-background-24331519.jpg"); */
+    /* background-image: url("https://wallpapers.com/images/hd/coding-background-0vw3zenwz75j4jkb.jpg"); */
+    /*  background-image: url("https://tse2.mm.bing.net/th?id=OIP.eQ3f3peIkp1cGmuCtJAOOAHaEv&pid=Api&P=0&h=180");  */
+    /* background-image:url("https://img.freepik.com/premium-vector/coding-technician-icon-white-background_404166-1423.jpg"); */
+    animation: gradient 25s ease infinite;
+    /* background-image: url("https://img.freepik.com/premium-photo/3d-coding-programming-background_544662-1636.jpg"); */
+    /* background-image: url("https://purepng.com/public/uploads/large/purepng.com-firefireheatlightflame-1411527009452zqzsq.png"); */
+    /* background-image: url("https://atlas-content-cdn.pixelsquid.com/stock-images/white-coding-symbol-computer-icon-koL3e38-600.jpg"); */
+    background-size: 100vh 100vh;
+    background-color: #000000;
+
+
 }
 
 .home-container {
@@ -250,7 +271,6 @@
     justify-content: center;
     align-items: center;
     max-width: 600px;
-
     height: 100vh;
 
 
@@ -364,11 +384,11 @@
 }
 
 .timer-item {
-    font-size: 25px;
+    font-size: 30px;
     color: #eeba2c;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:992px) {
     .timer-item {
         font-size: 60px;
         color: #eeba2c;
@@ -380,7 +400,7 @@
     color: #000000;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:992px) {
     .timer-code {
         font-size: 60px;
         color: #000000;
@@ -452,7 +472,7 @@
 }
 
 .college-card {
-    background-image: url("https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/2431/2018/7/27/University-College-of-Engineering-Kancheepuram1.jpg");
+    background-image: url("https://i.ibb.co/pQTXmXV/luxa-org-opacity-changed-University-College-of-Engineering-Kancheepuram1-1.png");
     background-size: cover;
 
 }
@@ -504,12 +524,174 @@
 
 .card {
     background-color: grey;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(238, 186, 44, 0.7);
+    /* Yellow shadow */
+    transition: box-shadow 1s ease-in-out;
+
+    animation: fadeInOut 3s ease-in-out infinite;
+    /* Apply the fade-in and out animation */
     padding: 20px;
     margin: 20px;
     max-width: 320px;
 }
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    25% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    75% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    25% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    75% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    25% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    75% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+}
+
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    25% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    75% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes fadeInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    25% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    75% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+.non-tech-animation {
+    animation: fadeInRight 5s ease-in-out infinite;
+}
+
+.about-sympo-animation {
+    animation: fadeInLeft 7s ease-in-out infinite;
+}
+
+.about-college-animation {
+    animation: fadeInTop 3s ease-in-out infinite;
+    ;
+}
+
+.members-animation {
+    animation: fadeInBottom 6s ease-in-out infinite;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(238, 186, 44, 0.9);
+    /* Stronger yellow shadow on hover */
+}
+
+.card-icon {
+    font-size: 50px;
+    color: #eeba2c;
+    /* Matches your website's yellow color */
+}
+
+.card-heading {
+    font-size: 24px;
+    color: #000;
+}
+
+.card-paragraph {
+    font-size: 16px;
+    color: #333;
+}
+
+.btn-warning {
+    background-color: #eeba2c;
+    border-color: #eeba2c;
+    color: #fff;
+}
+
+
+
 
 @media screen and (min-width:992px) {
     .card {
@@ -525,10 +707,13 @@
 .card2 {
 
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
     padding: 20px;
     margin: 20px;
     max-width: 320px;
+    box-shadow: 0 4px 8px rgba(238, 186, 44, 0.7);
+    /* Yellow shadow */
+    transition: box-shadow 1s ease-in-out;
 
 }
 
@@ -536,7 +721,9 @@
     .card2 {
         background-color: #000000;
         border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(238, 186, 44, 0.7);
+        /* Yellow shadow */
+        transition: box-shadow 1s ease-in-out;
         padding: 20px;
         margin: 20px;
         max-width: 1050px;
@@ -628,7 +815,7 @@
 }
 
 .footer-item a {
-    color: #000;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -657,7 +844,7 @@
 
 .icon {
     width: 50px;
-    color: #ffffff;
+    color: #000000;
 }
 
 /** copyright **/
@@ -667,7 +854,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #000000;
+    background-color: #ffffff;
     color: white;
     width: 100%;
 }
@@ -687,7 +874,7 @@
 }
 
 .copyright .right-icons a {
-    color: white;
+    color: black;
     margin-left: 10px;
     text-decoration: none;
 }
